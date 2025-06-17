@@ -1,12 +1,6 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-/*
-    Paleta de cores
-    Verde: #49a09d
-    
-
-*/ 
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap'); 
 * {
     padding: 0px;
     margin: 0px;
@@ -34,7 +28,7 @@ section#login {
     transform: translate(-50%, -50%);
     background-color: white;
     width: 250px;
-    height: 500px;
+    height: 520px;
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.500);
@@ -61,5 +55,53 @@ div#formulario h1 {
 }
 
 div#formulario p {
+    font-size: 0.8em;
+}
+div.campo > label {
+    display: none;
+}
+form > div.campo {
+   background-color: chocolate; 
+   display: block;
+   width: 100%;
+   height: 40px;
+   border-radius: 5px;
+   margin: 5px 0px;
+}
+
+form > input[type=submit] {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: chocolate;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+form > input[type=submit]:hover {
+    background-color: rgb(207, 125, 67);
+}
+
+form > a.botao {
+    display: block;
+    padding-top: 5px;
+    margin-top: 5px;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    border: 1px solid chocolate;
+    text-decoration: none;
+    color: chocolate;
+    border-radius: 5px;
+}
+form > a.botao:hover {
+    background-color: chocolate;
+    color: white;
+}
+form > a.botao > span {
     font-size: 0.8em;
 }
