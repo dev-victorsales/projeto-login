@@ -20,7 +20,6 @@ Uma tela de login simples e estilizada com foco em design moderno e responsivo. 
 - HTML5
 - CSS3
 - Google Fonts (Inter)
-- Ícones via Unicode (ou imagens se você usar futuramente)
 
 ---
 
